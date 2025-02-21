@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+.env
+
+# Build artifacts
+out/
+cache/
+broadcast/
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+.DS_Store

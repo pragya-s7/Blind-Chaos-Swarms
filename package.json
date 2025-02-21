@@ -1,0 +1,25 @@
+{
+  "name": "blind-chaos-swarms",
+  "version": "1.0.0",
+  "description": "Privacy-first prediction market built on Seismic's encrypted blockchain",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "sforge build",
+    "test": "sforge test",
+    "dev:cli": "cd packages/cli && npm run dev",
+    "deploy": "source .env && sforge script script/BlindChaosSwarm.s.sol:BlindChaosSwarmScript --rpc-url $RPC_URL --broadcast"
+  },
+  "keywords": [
+    "seismic",
+    "blockchain",
+    "prediction-market",
+    "privacy",
+    "encrypted",
+    "betting"
+  ],
+  "author": "",
+  "license": "MIT"
+}
