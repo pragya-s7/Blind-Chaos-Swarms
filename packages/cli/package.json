@@ -1,0 +1,18 @@
+{
+  "name": "blind-chaos-swarm-cli",
+  "license": "MIT License",
+  "type": "module",
+  "scripts": {
+    "dev": "node --loader ts-node/esm src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "seismic-viem": "1.0.12",
+    "viem": "^2.22.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
